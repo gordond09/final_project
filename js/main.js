@@ -1,4 +1,3 @@
-console.log('it works');
 $(document).ready(function(){
 
 	// when I click on an item in the nav 
