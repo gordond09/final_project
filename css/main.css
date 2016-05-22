@@ -386,12 +386,13 @@ th {
 
 /* Main Nav */
 #page-header nav {
-  background-color: rgba(0,0,0,1);
   border-bottom: 2px solid white;
+  background-color: rgba(0,0,0,1);
 }
+
 #page-header nav ul {
-  margin-top: 10px;
   float: left;
+  margin-top: 10px;
 }
 
 .nav-2{
@@ -448,12 +449,13 @@ th {
 
 .article-thumbs article {
   float: left;
+  margin-left: 30px;
   width: 15%;
 }
 
 .article-thumbs article a {
   display: block;
-  color: rgba(0,191,255,1);
+  color: white;
   text-decoration: none;
   -webkit-transition: background 300ms;
   -moz-transition: background 300ms;
@@ -462,7 +464,7 @@ th {
 
 .article-thumbs article a figure {
   float: left;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .article-thumbs article a figure img {
@@ -556,11 +558,11 @@ h2 a{
   width:85%;
   text-decoration: none;
   background-color: rgba(0,191,255,1);
+  margin-left: 10px;
   padding-left: 10px;
   color: black;
   font-weight: bold;
   font-size: 50px;
-  margin-left: 10px;
 }
 
 .trending-box{
@@ -570,16 +572,15 @@ h2 a{
 
 .trending-box ul li{
   text-align:center;
+  border-bottom: solid 2px lightgrey;
   padding:7px;
   font-size: 25px;
   list-style-type: none;
-  border-bottom: solid 2px lightgrey;
-  
 }
 
 .trending-box ul{
-  padding-left: 0px;
   margin:0px;
+  padding-left: 0px;
 }
 
 .trending-box a{
@@ -606,7 +607,6 @@ img{
   max-height:300px;
   margin-top: 30px;
   margin-bottom: 30px;
-  
 }
 
 /* Video Links*/
@@ -628,10 +628,10 @@ img{
 
 .site-footer{
   max-width: 100%;
-  padding:10px;
   text-align: right;
+  padding:10px;
   background-color: rgba(0,0,0,1);
-  color: white;
+  color: rgba(0,191,255,1);
   font-weight: bold;
   font-size: 15px;
 }
