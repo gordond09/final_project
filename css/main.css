@@ -384,13 +384,18 @@ th {
 .nav ul li{
   margin:0 auto;
   float: left;
-  width: 14.2857%;
+  width: 12.5%;
   list-style-type: none;
   font-size: 20px;
   text-align:center;
   padding:15px;
-  background-color: #0000CD;
+  background-color: rgb(25,25,112);
   border-right: solid 1px white;
+  border-bottom:solid 3px white;
+}
+
+.nav ul{
+  padding-left: 0px;
 }
 
 .nav li:last-of-type{border-right:0px;}
@@ -401,12 +406,16 @@ th {
   color:white;  
 }
 
+.item{
+  height:800px;
+}
+
 .carousel-caption h5{
   text-align: left;
   padding: 20px;
   width:50%;
   font-size: 35px;
-  background-color:rgba(0,0,0,0.5);
+  background-color:rgba(25,25,112,0.7);
   list-style-type: none;
 }
 .carousel-caption h5 a{
@@ -442,28 +451,42 @@ th {
 .grid-whole{ 
   width:100%; 
 }
+
 .grid-fifth{
-  width:20%;
-  background-color: #FFFAFA;
+  width:19.3%;
+  margin-left: 5px;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 7px;
+}
+
+.feature-section{
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.hero-article{
+  float:left;
+  width:70%;
 }
 
 .hero-article img{
-  position: relative;
-  width: 100%
+  width: 95%
 }
 
 h2 a{
-  position: absolute;
-  top:855px;
-  width:25%;
+  display: block;
+  width:85%;
   text-decoration: none;
-  background-color: rgba(0,0,205,0.8);
+  background-color: rgba(25,25,112,0.9);
   padding-left: 10px;
   color: white;
   font-size: 50px;
   margin-left: 10px;
+}
+
+.trending-box{
+  float:left;
+  width:30%;
 }
 
 .trending-box ul li{
@@ -472,11 +495,7 @@ h2 a{
   font-size: 35px;
   list-style-type: none;
   border-bottom: solid 4px lightgrey;
-}
-
-.trending-box a{
-  text-decoration: none;
-  color: black;
+  
 }
 
 .trending-box ul{
@@ -484,9 +503,9 @@ h2 a{
   margin:0px;
 }
 
-.feature{
-  margin-top: 0px;
-  margin-bottom: 30px;
+.trending-box a{
+  text-decoration: none;
+  color: black;
 }
 
 .trending-box h4{
@@ -502,11 +521,14 @@ img{
 }
 
 .video-detail{
+  width:49.5%;
+  margin-left: 5px;
   height:300px;
   border:solid 2px lightgrey;
   padding-right: 0px;
 }
 .video-link{
+  width:49.5%;
   padding: 0px;
 }
 .hero-ad img{
@@ -520,7 +542,7 @@ img{
   max-width: 100%;
   padding:10px;
   text-align: right;
-  background-color: #0000CD;
+  background-color: rgba(25,25,112,1);
   color: white;
   font-weight: bold;
   font-size: 15px;
