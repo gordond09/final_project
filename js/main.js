@@ -31,3 +31,21 @@ $(document).ready(function(){
 	});
 	
 });
+$(document).ready(function(){
+	
+	$('.nav-icon').on('click', function(event){
+		event.preventDefault();
+		$('.main-nav ul').slideToggle();
+	});
+
+	$(window).on('resize', function(){
+		if ( $(window).width() > 970 ) {
+			$('.main-nav ul').show();
+			$('.nav-icon').hide();
+		} else {
+			$('.main-nav ul').hide();
+			$('.nav-icon').show();
+		}
+	});
+
+});
