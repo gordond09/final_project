@@ -431,7 +431,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Noto Sans', sans-serif;
 #page-header nav ul li a {
   display: block;
   z-index: 1;
-  font-size: 15px;
+  font-size: 18px;
   color: rgba(0,191,255,1);
   text-decoration: none;
   padding: 10px 0;
@@ -480,6 +480,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Noto Sans', sans-serif;
 @media screen and (max-width: 970px) {
   .article-thumbs article {
     float: none; width: 50%;
+    margin-left: 80px;
   }
 }
 
@@ -490,6 +491,10 @@ h1,h2,h3,h4,h5,h6{font-family:'Noto Sans', sans-serif;
   -webkit-transition: background 300ms;
   -moz-transition: background 300ms;
   transition: background 300ms;
+}
+
+.article-thumbs h3{
+    font-size: 18px;
 }
 
 .article-thumbs article a figure {
