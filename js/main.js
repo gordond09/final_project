@@ -39,7 +39,7 @@ $(document).ready(function(){
 	});
 
 	$(window).on('resize', function(){
-		if ( $(window).width() > 970 ) {
+		if ( $(window).width() > 1080 ) {
 			$('.main-nav ul').show();
 			$('.nav-icon').hide();
 		} else {
